@@ -1,5 +1,6 @@
 package com.decAPI;
 
+import com.sun.org.apache.regexp.internal.RE;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.junit.Test;
@@ -8,6 +9,8 @@ import sun.security.x509.OtherName;
 
 import static org.hamcrest.Matchers.equalTo;
 import javax.naming.ldap.StartTlsResponse;
+import javax.xml.soap.SAAJResult;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
@@ -154,5 +157,81 @@ public class APIClass {
                 .body("body",hasItems("quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"));
         response.prettyPrint();
     }
-    
+
+    // for post method
+    @Test
+    public void registerSuccessfull(){
+        //method from Default class contenstType (appliocation/jason)
+        Response responce = given().contentType("application/json")
+                .when().body("{\n" +
+                "    \"email\": \"eve.holt@reqres.in\",\n" +
+                "    \"password\": \"pistol\"\n" +
+                "}")
+                .post("https://reqres.in/api/register");
+
+        responce.then().statusCode(200)
+                .body("id",is(4));
+        responce.prettyPrint();
+    }
+
+    @Test
+    public void create (){
+        Response response = given().contentType("application/json")
+                .when().body("{\n" +
+                        "    \"name\": \"morpheus\",\n" +
+                        "    \"job\": \"leader\"\n" +
+                        "}")
+                .post("https://reqres.in/api/users");
+        response.then().statusCode(201)
+                .body("name",is(equalTo("morpheus")));
+
+        response.prettyPrint();
+
+    }
+
+    @Test
+    public void registerUnsucessfull(){
+
+        Response response = given().contentType("application/json")
+                .when().body("{\n" +
+                        "    \"email\": \"sydney@fife\"\n" +
+                        "}")
+                .post("https://reqres.in/api/register");
+        response.then().statusCode(400);
+
+        response.prettyPrint();
+    }
+
+    @Test
+    public void loginSucessfull (){
+
+        Response responce = given().contentType("application/json")
+                .when().body("{\n" +
+                        "    \"email\": \"eve.holt@reqres.in\",\n" +
+                        "    \"password\": \"cityslicka\"\n" +
+                        "}")
+                .post("https://reqres.in/api/login");
+        responce.then().statusCode(200)
+                .body("token",is(equalTo("QpwL5tke4Pnpja7X4")));
+        responce.prettyPrint();
+    }
+
+    @Test
+    public void loginUnsucessfull(){
+
+        String payload = "{\n" +
+                "    \"email\": \"peter@klaven\"\n" +
+                "}";
+
+        Response response = given().contentType("application/json")
+                            .when().body(payload)
+                            .post("https://reqres.in/api/login");
+        response.then().statusCode(400)
+                .body("error",is(equalTo("Missing password")));
+        response.prettyPrint();
+
+    }
+
+
 }
+
