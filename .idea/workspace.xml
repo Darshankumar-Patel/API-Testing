@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8063f3ca-c9e3-405e-9874-e47d44a0e299" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/decAPI/TwitterAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/decAPI/TwitterAPI.java" afterDir="false" />
-    </list>
+    <list default="true" id="8063f3ca-c9e3-405e-9874-e47d44a0e299" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577189513322</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Twitter Practice Automation">
+      <created>1577192712557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577192712557</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,17 +204,18 @@
     <MESSAGE value="Twitter Automation" />
     <MESSAGE value="Twitter Get/Post/Destroy" />
     <MESSAGE value="POM updated with Cucumber Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="POM updated with Cucumber Junit" />
+    <MESSAGE value="Twitter Practice Automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Twitter Practice Automation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576749970079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1576749970079" />
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1577189511678">
+    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1577192711202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577189511678" />
+    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577192711202" />
     <state width="1322" height="220" key="GridCell.Tab.0.bottom" timestamp="1577192642120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -227,18 +232,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577192642120" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1577189518448">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1577192717513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577189518448" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577192717513" />
     <state x="391" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577188939692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577188939692" />
-    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577192656539">
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577192731698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577192656539" />
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577192731698" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1577044218305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
