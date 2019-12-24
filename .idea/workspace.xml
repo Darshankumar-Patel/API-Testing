@@ -38,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.TwitterAPI">
+  <component name="RunManager" selected="JUnit.TwitterPracticeAutomation.postTwittNew">
     <configuration name="APIClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API Testing" />
       <extension name="coverage">
@@ -69,38 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterAPI.destroyTwitt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="API Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.decAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.decAPI" />
-      <option name="MAIN_CLASS_NAME" value="com.decAPI.TwitterAPI" />
-      <option name="METHOD_NAME" value="destroyTwitt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwitterAPI.getIDtodestroy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="API Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.decAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.decAPI" />
-      <option name="MAIN_CLASS_NAME" value="com.decAPI.TwitterAPI" />
-      <option name="METHOD_NAME" value="getIDtodestroy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwitterAPI.getTweet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API Testing" />
       <extension name="coverage">
@@ -117,13 +85,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwitterPracticeAutomation.getTwittNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.decAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.decAPI" />
+      <option name="MAIN_CLASS_NAME" value="com.decAPI.TwitterPracticeAutomation" />
+      <option name="METHOD_NAME" value="getTwittNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterPracticeAutomation.postTwittNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.decAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.decAPI" />
+      <option name="MAIN_CLASS_NAME" value="com.decAPI.TwitterPracticeAutomation" />
+      <option name="METHOD_NAME" value="postTwittNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwitterPracticeAutomation.postTwittNew" />
+        <item itemvalue="JUnit.TwitterPracticeAutomation.getTwittNew" />
+        <item itemvalue="JUnit.TwitterAPI.getTweet" />
         <item itemvalue="JUnit.TwitterAPI" />
         <item itemvalue="JUnit.APIClass" />
-        <item itemvalue="JUnit.TwitterAPI.getTweet" />
-        <item itemvalue="JUnit.TwitterAPI.destroyTwitt" />
-        <item itemvalue="JUnit.TwitterAPI.getIDtodestroy" />
       </list>
     </recent_temporary>
   </component>
@@ -211,22 +211,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="199" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577189511678" />
-    <state width="1322" height="220" key="GridCell.Tab.0.bottom" timestamp="1577044941397">
+    <state width="1322" height="220" key="GridCell.Tab.0.bottom" timestamp="1577192642120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577044941397" />
-    <state width="1322" height="220" key="GridCell.Tab.0.center" timestamp="1577044941397">
+    <state width="1322" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577192642120" />
+    <state width="1322" height="220" key="GridCell.Tab.0.center" timestamp="1577192642120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577044941397" />
-    <state width="1322" height="220" key="GridCell.Tab.0.left" timestamp="1577044941397">
+    <state width="1322" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577192642120" />
+    <state width="1322" height="220" key="GridCell.Tab.0.left" timestamp="1577192642120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577044941397" />
-    <state width="1322" height="220" key="GridCell.Tab.0.right" timestamp="1577044941397">
+    <state width="1322" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577192642120" />
+    <state width="1322" height="220" key="GridCell.Tab.0.right" timestamp="1577192642120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577044941397" />
+    <state width="1322" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577192642120" />
     <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1577189518448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -235,10 +235,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577188939692" />
-    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577189459831">
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577192656539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577189459831" />
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577192656539" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1577044218305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

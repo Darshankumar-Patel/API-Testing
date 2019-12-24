@@ -19,10 +19,10 @@ import static org.hamcrest.Matchers.*;
 
 public class TwitterAPI {
 
-String ConsumerKey = "iHQ7AZ2Qv9JbtK3Kx1nS44A54";
-String ConsumerSecret = "gvau6ZOJu56qjh1b2D6cyixgnGi3stir7smdqm7I2HRYurx2NW";
-String AccessKey = "1204375673592307712-HqEGsoe1ab0WSrk8mNlkgbb7vUOQw3";
-String TokenSwcret = "53xtwjG8uqUzei1Q2LLhCJEtsGImVTLMAo3R8IDAAkxpk";
+String ConsumerKey = "Qj9IaZIG8NGQiOzk5eHYdir4C";
+String ConsumerSecret = "IB2X4xMlzXAGysqoMKsT0UeYSNcepGdV3wQFWdlnF7N45Oxl0P";
+String AccessKey = "1204375673592307712-U63QHflqsjXnYmOd549rlbB1NLt1jw";
+String TokenSwcret = "StaSS4QSkJ69VrE1V1w0vvBqn6r1UDFFlw0CoUUJ3EyhO";
 
 @Test
     public void getTweet(){
