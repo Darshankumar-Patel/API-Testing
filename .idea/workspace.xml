@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8063f3ca-c9e3-405e-9874-e47d44a0e299" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/decAPI/TwitterAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/decAPI/TwitterAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,24 +185,32 @@
       <option name="project" value="LOCAL" />
       <updated>1577044771027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="POM updated with Cucumber Junit">
+      <created>1577189513322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577189513322</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API with Get &amp; Post" />
     <MESSAGE value="Twitter Automation" />
     <MESSAGE value="Twitter Get/Post/Destroy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Twitter Get/Post/Destroy" />
+    <MESSAGE value="POM updated with Cucumber Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM updated with Cucumber Junit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576749970079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1576749970079" />
-    <state x="187" y="0" key="CommitChangelistDialog2" timestamp="1577044769758">
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1577189511678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="187" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577044769758" />
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577189511678" />
     <state width="1322" height="220" key="GridCell.Tab.0.bottom" timestamp="1577044941397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,10 +227,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577044941397" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1577044774927">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1577189518448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577044774927" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577189518448" />
     <state x="391" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577188939692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,5 +1,6 @@
 package com.decAPI;
-
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 import com.sun.org.apache.regexp.internal.RE;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
