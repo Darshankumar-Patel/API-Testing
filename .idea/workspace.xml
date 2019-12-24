@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8063f3ca-c9e3-405e-9874-e47d44a0e299" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,14 +223,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577044774927" />
-    <state x="391" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577045214254">
+    <state x="391" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577188939692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577045214254" />
-    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577044760692">
+    <state x="391" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577188939692" />
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577189459831">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577044760692" />
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577189459831" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1577044218305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
